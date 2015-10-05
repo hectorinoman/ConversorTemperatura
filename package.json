@@ -1,0 +1,22 @@
+{
+  "name": "ConversorTemperatura",
+  "version": "0.0.1",
+  "description": "ULL ESIT Grado de Informática. Lab \"Temperature Converter\"",
+  "main": "temperatura.js",
+  "scripts": {
+    "test": "open tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hectorinoman/ConversorTemperatura.git"
+  },
+  "keywords": [
+    "regexp"
+  ],
+  "author": "Hector",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectorinoman/ConversorTemperatura/issues"
+  },
+  "homepage": "https://github.com/hectorinoman/ConversorTemperatura"
+}
