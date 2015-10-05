@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/hectorinoman/ConversorTemperatura/issues"
   },
-  "homepage": "https://github.com/hectorinoman/ConversorTemperatura"
+  "homepage": "https://github.com/hectorinoman/ConversorTemperatura",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  }
 }
