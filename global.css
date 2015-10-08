@@ -1,4 +1,4 @@
-th, td      { vertical-align: top; text-align: right; font-size:large;}     /* Don't center table cells  */
+th, td      { vertical-align: top; text-align: right; font-size:large; 	position: relative; left: 50%; right:50%;}     /* Don't center table cells  */
 
 #converted  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
 
@@ -23,12 +23,23 @@ body
 
 
 h1{
-    font-weight: normal;
-    font-family: "Brush Script MT", cursive;
-    background: #3C5681;
-    padding: 5px 15px;
-    color: white;
-    display:inline-block;
-    border-radius: 10px 10px 10px 10px;
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 13px #2f6627;
+	position: relative;
+    left: 50%;
+    
 }
+
+
 
