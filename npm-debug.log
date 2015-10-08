@@ -1,22 +1,73 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
 1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
-1 verbose cli   'init',
-1 verbose cli   '[-f' ]
+1 verbose cli   'i',
+1 verbose cli   'gulp-...',
+1 verbose cli   '--save-dev' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.35
-4 error Error: write EPIPE
-4 error     at errnoException (net.js:905:11)
-4 error     at Object.afterWrite (net.js:721:19)
-5 error If you need help, you may report this *entire* log,
-5 error including the npm and node versions, at:
-5 error     <http://github.com/npm/npm/issues>
-6 error System Linux 3.14.13-c9
-7 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "init" "[-f"
-8 error cwd /home/ubuntu/workspace/ConversorTemperatura
-9 error node -v v0.10.35
-10 error npm -v 1.4.28
-11 error syscall write
-12 error code EPIPE
-13 error errno EPIPE
-14 verbose exit [ 1, true ]
+4 warn package.json ConversorTemperatura@0.0.1 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'gulp-...', null ]
+7 verbose cache add name=undefined spec="gulp-..." args=["gulp-...",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'gulp-...',
+8 verbose parsed url   path: 'gulp-...',
+8 verbose parsed url   href: 'gulp-...' }
+9 silly lockFile 055a3cbd-gulp gulp-...
+10 verbose lock gulp-... /home/ubuntu/.npm/055a3cbd-gulp.lock
+11 silly lockFile 055a3cbd-gulp gulp-...
+12 silly lockFile 055a3cbd-gulp gulp-...
+13 verbose addNamed [ 'gulp-...', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile fa072827-gulp gulp-...@
+16 verbose lock gulp-...@ /home/ubuntu/.npm/fa072827-gulp.lock
+17 silly addNameRange { name: 'gulp-...', range: '*', hasData: false }
+18 verbose request where is /gulp-...
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 6d9b91f782d3b1e4
+21 verbose url raw /gulp-...
+22 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-...' ]
+23 verbose url resolved https://registry.npmjs.org/gulp-...
+24 verbose request where is https://registry.npmjs.org/gulp-...
+25 info trying registry request attempt 1 at 18:20:30
+26 http GET https://registry.npmjs.org/gulp-...
+27 http 404 https://registry.npmjs.org/gulp-...
+28 silly registry.get cb [ 404,
+28 silly registry.get   { 'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '2',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Thu, 08 Oct 2015 18:20:31 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-ams4138-AMS',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1444328430.932716,VS0,VE703' } ]
+29 silly lockFile fa072827-gulp gulp-...@
+30 silly lockFile fa072827-gulp gulp-...@
+31 error 404 Not Found
+31 error 404
+31 error 404 'gulp-...' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'ConversorTemperatura'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.14.13-c9
+33 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "i" "gulp-..." "--save-dev"
+34 error cwd /home/ubuntu/workspace/ConversorTemperatura
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/hectorinoman/ConversorTemperatura",
   "devDependencies": {
-    "chai": "^3.3.0"
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-util": "^3.0.6"
   },
   "dependencies": {
     "normalize.css": "^3.0.3"
