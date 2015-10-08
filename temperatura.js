@@ -21,6 +21,6 @@ function calculate() {
     converted.innerHTML = result;
   }
   else {
-    converted.innerHTML = "ERROR! Try something like '-4.2C' instead";  //no es una entrada valida
+    converted.innerHTML = "ERROR! Try something like '-4.2C' instead";  //no es una entrada valida 
   }
 }
