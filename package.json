@@ -26,6 +26,7 @@
     "gulp-util": "^3.0.6"
   },
   "dependencies": {
-    "normalize.css": "^3.0.3"
+    "normalize.css": "^3.0.3",
+    "uglify-js": "^2.5.0"
   }
 }
