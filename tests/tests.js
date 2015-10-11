@@ -16,4 +16,17 @@ suite('temperature', function() {
         calculate();
         assert.match(converted.innerHTML, /ERROR/);
     });
+    
+    test('Resultado == String', function() {
+       original.value = "-2.4K";
+       calculate();
+       assert.isString(converted.innerHTML);
+   });
+   test('Resultado != Null', function() {
+      original.value = "-3.6F";
+      calculate();
+      assert.isNotNull(converted.innerHTML);
+  })
+  
+
 });
