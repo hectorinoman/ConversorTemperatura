@@ -2,7 +2,7 @@
 function calculate() {
   var result;
   var temp = original.value; //almacena en el, la variable temp el valor original.
-  var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+  var regexp = /(^[-+]?\d+(?:\.\d*)?)(?:[eE]?([-+]?\d+))?\s*([fFcCkK])/;
   
   var m = temp.match(regexp);
   
