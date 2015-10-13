@@ -1,0 +1,8 @@
+input,td,th{text-align:right;font-size:large}
+#converted,body,input,td,th{font-size:large}
+h1,td,th{position:relative;left:50%}
+td,th{vertical-align:top;right:50%}
+#converted{color:red;font-weight:700}
+input{border:none;border-radius:20px;padding:5px}
+body{background-color:#F1F8E0;font-family:"Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace}
+h1{background-color:#44c767;-moz-border-radius:11px;-webkit-border-radius:11px;border-radius:11px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:24px;padding:16px 31px;text-decoration:none;text-shadow:0 0 13px #2f6627}
